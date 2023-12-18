@@ -24,3 +24,11 @@ from .turbomind import TurboMindModel  # noqa: F401
 from .turbomind_tis import TurboMindTisModel  # noqa: F401
 from .xunfei_api import XunFei  # noqa: F401
 from .zhipuai_api import ZhiPuAI  # noqa: F401
+from .sphinx_tokenizer import Tokenizer  # noqa: F401
+from .sphinx_mixtral_moe import MixtralMoESphinx  # noqa: F401
+from .sphinx_mixtral_moe_quant import MixtralMoEQuantSphinx # noqa: F401
+from .peft import * # noqa: F401
+from .sphinx_meta import MetaModel  #  noqa: F401
+from .sphinx_mixtral_sparse import MixtralSparseSphinx  # noqa: F401
+from .sphinx_mixtral_sparse_quant import MixtralSparseQuantSphinx  # noqa: F401
+from .sphinx_mixtral_sparse_wemix import MixtralSparseWemixSphinx # noqa: F401
