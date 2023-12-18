@@ -117,7 +117,6 @@ class SlurmRunner(BaseRunner):
             cmd = get_cmd()
 
             logger = get_logger()
-            logger.debug(f'Running command: {cmd}')
 
             # Run command with retry
             if self.debug:
